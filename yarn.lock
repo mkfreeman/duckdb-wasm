@@ -10,11 +10,12 @@
     lodash.assignwith "^4.2.0"
     typical "^7.1.1"
 
-"@duckdb/duckdb-wasm-examples-bare-node@file:/Users/michaelfreeman/Desktop/duckdb-wasm/examples/bare-node":
+"@duckdb/duckdb-wasm-examples-bare-node@file:/Users/michaelfreeman/Desktop/testing-again-again/duckdb-wasm/examples/bare-node":
   version "0.0.1"
   resolved "file:examples/bare-node"
   dependencies:
     "@duckdb/duckdb-wasm" "^1.29.0"
+    apache-arrow "^19.0.1"
     web-worker "^1.2.0"
 
 "@duckdb/duckdb-wasm@^1.29.0":
@@ -213,6 +214,11 @@ table-layout@^3.0.0:
     stream-read-all "^3.0.1"
     typical "^7.1.1"
     wordwrapjs "^5.1.0"
+
+ts-lib@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/ts-lib/-/ts-lib-0.0.5.tgz"
+  integrity sha512-pBLcwddLU22ib+vOAzhmTVqQZVN6FD8LtI0Rq4W6BZMOwhOpXqkKRi8f7P5F8KkuPzeunpimLbL0jznWsBeQHg==
 
 tslib@^2.4.0, tslib@^2.6.2:
   version "2.6.2"
